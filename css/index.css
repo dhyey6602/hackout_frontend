@@ -1,7 +1,11 @@
 body{
     background-color: white; 
     font-family: 'Open Sans', sans-serif;
-    height: 100%;
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
 }
 a{
     color: #ecf0f1e0;
@@ -20,8 +24,12 @@ a:hover{
 .footer a{
     font-weight: 400;
 }
+img{
+    width: 100%;
+    overflow: hidden;
+}
 .request{
-    min-height: 60vh; 
+    min-height: 70vh; 
     background-image: url("../images/blood_back.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,8 +45,20 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-}}
+}
+.headingSupporters{
+    font-size: 2rem !important;
+    margin-top: 20px !important;
+}
+}
 .headingRequest{
     font-size: 4rem;    
 }
+.headingSupporters{
+    margin: 100px 0px;
+    font-size: 4rem;
+}
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 100%;
+    }
 /* red shade: #e74c3c */
