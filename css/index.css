@@ -1,0 +1,22 @@
+body{
+    background-color: #ecf0f1; 
+}
+a{
+    color: #ecf0f1e0;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    background-color: #111;
+    color: rgba(255, 255, 255, 0.747);
+    font-weight: 400;
+}
+.footer a{
+    font-weight: 400;
+}
+  
+/* red shade: #e74c3c */
