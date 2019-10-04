@@ -1,5 +1,7 @@
 body{
-    background-color: #ecf0f1; 
+    background-color: white; 
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
 }
 a{
     color: #ecf0f1e0;
@@ -18,5 +20,25 @@ a:hover{
 .footer a{
     font-weight: 400;
 }
-  
+.request{
+    min-height: 60vh; 
+    background-image: url("../images/blood_back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+@media (max-width:600px){
+.headingRequest{
+    font-size: 2rem !important;
+}
+.request{
+    min-height: 40vh;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}}
+.headingRequest{
+    font-size: 4rem;    
+}
 /* red shade: #e74c3c */
