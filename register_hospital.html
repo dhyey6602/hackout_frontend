@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,28 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
     <style>
-    body{
-        background-image: url("images/redbackground.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    div .container {
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        border-radius: 10px;
-    }
-    .nav-btn{
-        margin: 0px 35%;
-    }
+        body {
+            background-image: url("images/redbackground.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div .container {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .nav-btn {
+            margin: 0px 35%;
+        }
     </style>
 </head>
+
 <body>
     <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-dark text-light sticky-top" style="background-color: #EA2027; color: #ecf0f1; margin-bottom: 50px;">
+    <nav class="navbar navbar-expand-lg navbar-dark text-light sticky-top"
+        style="background-color: #EA2027; color: #ecf0f1; margin-bottom: 50px;">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,76 +57,89 @@
     </nav>
     <!--Body-->
     <div class="container">
-    <form class="container" style="max-width: 500px;">
-        <h1 class="text-center my-4">Register Now</h1>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text " id="inputGroup-sizing-default"><i class="fas fa-hospital" style="font-size: 1.2rem;"></i></span>
-            </div>
-            <input type="text" maxlength="150" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Name">
-          </div>
-          <div class="input-group my-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-procedures " style="font-size: 1.2rem;"></i></span>
-            </div>
-            <textarea  required class="form-control" aria-label="With textarea" rows="2" cols="40" placeholder="Enter Your Address"></textarea>
-        </div>
-        <div class="input-group my-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-map-marker-alt " style="font-size: 1.2rem;"></i></span>
-            </div>
-            <input type="text" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Your Location">
-          </div>
-          <br>
-          <p class="text-muted">Available BloodGroups:</p>
-          <div class="row">
-          <div class="col-4 mb-1">
-                <div class="custom-control custom-checkbox mr-sm-2">
-                  <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
-                  <label class="custom-control-label" for="customControlAutosizing">A+</label>
+        <form class="container" style="max-width: 500px;">
+            <h1 class="text-center my-4">Register Now</h1>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text " id="inputGroup-sizing-default"><i class="fas fa-hospital"
+                            style="font-size: 1.2rem;"></i></span>
                 </div>
-              </div>
-            
-          <div class="col-4 my-1">
-                <div class="custom-control custom-checkbox form-check-inline mr-sm-2">
-                  <input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
-                  <label class="custom-control-label" for="customControlAutosizing2">A-</label>
+                <input type="text" maxlength="150" required class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Enter Name">
+            </div>
+            <div class="input-group my-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-procedures "
+                            style="font-size: 1.2rem;"></i></span>
                 </div>
-              </div>
-              <div class="col-4 my-1">
+                <textarea required class="form-control" aria-label="With textarea" rows="2" cols="40"
+                    placeholder="Enter Your Address"></textarea>
+            </div>
+            <div class="input-group my-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-map-marker-alt "
+                            style="font-size: 1.2rem;"></i></span>
+                </div>
+                <input type="text" required class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Enter Your Location">
+            </div>
+            <br>
+            <p class="text-muted">Available BloodGroups:</p>
+            <div class="row">
+                <div class="col-4 mb-1">
                     <div class="custom-control custom-checkbox mr-sm-2">
-                      <input type="checkbox" class="custom-control-input" id="customControlAutosizing3">
-                      <label class="custom-control-label" for="customControlAutosizing3">B+</label>
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                        <label class="custom-control-label" for="customControlAutosizing">A+</label>
                     </div>
-                  </div>
-                  <div class="col-4 my-1">
-                        <div class="custom-control custom-checkbox mr-sm-2">
-                          <input type="checkbox" class="custom-control-input" id="customControlAutosizing4">
-                          <label class="custom-control-label" for="customControlAutosizing4">B-</label>
-                        </div>
-                      </div>
-                      <div class="col-4 my-1">
-                            <div class="custom-control custom-checkbox mr-sm-2">
-                              <input type="checkbox" class="custom-control-input" id="customControlAutosizing5">
-                              <label class="custom-control-label" for="customControlAutosizing5">AB+</label>
-                            </div>
-                          </div>
-                          <div class="col-4 my-1">
-                                <div class="custom-control custom-checkbox mr-sm-2">
-                                  <input type="checkbox" class="custom-control-input" id="customControlAutosizing6">
-                                  <label class="custom-control-label" for="customControlAutosizing6">AB-</label>
-                                </div>
-                              </div>
-                            </div>
-        <div class="nav-btn">
-          <button class="btn btn-md my-3 btn-light border-danger">Register Now</button>
-        </div>
-    </form>
-</div>
-<!--JS-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+                </div>
+
+                <div class="col-4 my-1">
+                    <div class="custom-control custom-checkbox form-check-inline mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
+                        <label class="custom-control-label" for="customControlAutosizing2">A-</label>
+                    </div>
+                </div>
+                <div class="col-4 my-1">
+                    <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing3">
+                        <label class="custom-control-label" for="customControlAutosizing3">B+</label>
+                    </div>
+                </div>
+                <div class="col-4 my-1">
+                    <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing4">
+                        <label class="custom-control-label" for="customControlAutosizing4">B-</label>
+                    </div>
+                </div>
+                <div class="col-4 my-1">
+                    <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing5">
+                        <label class="custom-control-label" for="customControlAutosizing5">AB+</label>
+                    </div>
+                </div>
+                <div class="col-4 my-1">
+                    <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing6">
+                        <label class="custom-control-label" for="customControlAutosizing6">AB-</label>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-btn">
+                <button class="btn btn-md my-3 btn-light border-danger">Register Now</button>
+            </div>
+        </form>
+    </div>
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
 </body>
+
 </html>
