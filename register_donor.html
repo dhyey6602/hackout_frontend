@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donor-Regisitration Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
+    <style>
+    body{
+        background-image: url("images/redbackground.jpg")
+    }</style>
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-light sticky-top" style="background-color: #EA2027; color: #ecf0f1; margin-bottom: 100px;">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active mx-2">
+                    <a class="nav-link" href="#">Request<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Achievements</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#motto">About us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="btn btn-dark btn-sm nav-item mx-2 active">
+                    <a href="#" class="nav-link">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Body-->
+    <div class="container">
+    <form class="container" style="max-width: 500px;">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text " id="inputGroup-sizing-default"><i class="fas fa-user-circle" style="font-size: 1.2rem;"></i></span>
+            </div>
+            <input type="text" maxlength="150" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Username">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-lock" style="font-size: 1.2rem;"></i></span>
+            </div>
+            <input type="password" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Password">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-lock" style="font-size: 1.2rem;"></i></span>
+            </div>
+            <input type="password" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Confirm Password">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-user" style="font-size: 1.2rem;"></i></span>
+            </div>
+            <input type="text" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Your First Name">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-user" style="font-size: 1.2rem;"></i></span>
+            </div>
+            <input type="text" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Your Last Name">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-mobile mx-1" style="font-size: 1.2rem;"></i></span>
+            </div>
+            <input type="text" onkeyup="this.value=this.value.replace(/[^\d]/,'')" minlength="10" maxlength="10" required class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter Your Mobile No.">
+          </div>
+          <div class="input-group my-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-address-book " style="font-size: 1.2rem;"></i></span>
+            </div>
+            <textarea class="form-control" aria-label="With textarea" rows="2" cols="40" placeholder="Enter Your Address"></textarea>
+        </div>
+          <div class="dropdown input-group" style="display: inline;">
+            <button class="btn btn-md btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blood Group
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">A+</a>
+              <a class="dropdown-item" href="#">A-</a>
+              <a class="dropdown-item" href="#">AB+</a>
+              <a class="dropdown-item" href="#">AB-</a>
+              <a class="dropdown-item" href="#">B+</a>
+              <a class="dropdown-item" href="#">B-</a>
+              <a class="dropdown-item" href="#">O+</a>
+              <a class="dropdown-item" href="#">O-</a>
+            </div>
+          </div>
+          <button class="btn btn-md btn-light border-danger">Register Now</button>
+    </form>
+</div>
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

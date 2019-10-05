@@ -47,10 +47,16 @@
           <span><button class="border-danger btn dislike-btn" onclick="dislike()"><i class="far fa-thumbs-down"></i></button></span><br>
           <div class="btn btn-danger mt-4 btn-lg">Submit</div>
 </div>
+<style>
+.btn-success{
+    background: green;
+    color: white;
+}
+</style>
 <script>
     function like(){
         var button=document.getElementsById("like-btn");
-        button.classList.add("btn-success");
+        button.classList.toggle("btn-success");
     }
     
     function dislike(){
