@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -41,23 +42,21 @@
     </nav>
     <!-- body-->
     <div class="request text-center pt-5">
-        <h1 class="headingRequest mb-4">Select Blood Group:</h1>
-        <div class="dropdown" style="display: inline;">
-            <button class="btn  btn-lg btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Blood Group
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">A+</a>
-                <a class="dropdown-item" href="#">A-</a>
-                <a class="dropdown-item" href="#">AB+</a>
-                <a class="dropdown-item" href="#">AB-</a>
-                <a class="dropdown-item" href="#">B+</a>
-                <a class="dropdown-item" href="#">B-</a>
-                <a class="dropdown-item" href="#">O+</a>
-                <a class="dropdown-item" href="#">O-</a>
-            </div>
-        </div>
+            <div class="input-group mb-3 mx-auto" style="max-width: 30%;">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-tint "
+                        style="font-size: 1.2rem;"></i></label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Select Blood Group</option>
+                      <option value="A+">A+</option>
+                      <option value="A-">A-</option>
+                      <option value="B+">B+</option>
+                      <option value="B-">B-</option>
+                      <option value="AB+">AB+</option>
+                      <option value="AB-">AB-</option>
+                    </select>
+                  </div>
         <button type="button" class="btn btn-light border-danger mx-2 btn-lg">Search</button>
     </div>
     <div class=" mx-auto card supporters text-center" style="width: 90%">
