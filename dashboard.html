@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-light sticky-top"
+        style="background-color: #EA2027; color: #ecf0f1; margin-bottom: 50px;">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active mx-2">
+                    <a class="nav-link" href="#">Request<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Achievements</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="btn btn-dark btn-sm nav-item mx-2 active">
+                    <a href="#" class="nav-link">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Body-->
+    <div class="card mx-auto" style="max-width: 68%;">
+        <div class="card-header">
+            Profile Details
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Apollo Hospitals</h5> <br>
+            <h6 class="card-text">Address</h6>
+            <p class="data_address text-muted">SG highway, Ahemdabad, Gujarat.</p>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="card ml-auto col-md-4 col-sm-12 border-danger">
+            <div class="card-body">
+                <h5 class="card-title">Check Stock</h5>
+                <h6 class="card-text text-muted">Check your current storage details</h6>
+                <button class="btn btn-danger mt-3" data-toggle="modal" data-target="#modal-fullscreen">
+                    Check Now
+                </button>
+            </div>
+        </div>
+        <div class="card mr-auto col-md-4 col-sm-12 border-danger">
+            <div class="card-body">
+                <h5 class="card-title">Data Entry</h5>
+                <h6 class="card-text text-muted">Update current storage info</h6>
+                <a href="hospital_entry.html"> <button class="btn btn-md btn-danger mt-3">Update Now</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Fullscreen -->
+    <div class="modal fade modal-fullscreen" id="modal-fullscreen" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Blood Group</th>
+                                <th scope="col">Count</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">A+</th>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A-</th>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">B+</th>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">B-</th>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">AB+</th>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">AB-</th>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
