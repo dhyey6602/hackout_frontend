@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
+    <style>
+    .none{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-light sticky-top"
+        style="background-color: #EA2027; color: #ecf0f1;">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active mx-2">
+                    <a class="nav-link" href="#">Request<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Achievements</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#motto">About us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="btn btn-dark btn-sm nav-item mx-2 active">
+                    <a href="#" class="nav-link">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- body-->
+    <div class="container text-center">
+        <div class="m-3 display-4">
+            Results for <span id="bloodgroup">B+</span>
+        </div>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons" >
+                <button class="btn btn-light active" onclick="myFunction()">
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Individuals
+                </button>
+                <button class="btn btn-light" onclick="myFunction1()">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> Organization  
+                </button>
+              </div>
+            </div>
+        <div id="individuals" class="mt-5 block">
+                <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Dhyey</h5> <br>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Meet</h5> <br>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Hemant</h5> <br>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">DA_Devs</h5> <br>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                    </div>
+        </div>
+        <div id="organization" class="mt-5 none">
+                <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Apollo Hospitals-2</h5> <br>
+                            <h6 class="card-text">Address</h6>
+                            <p class="data_address text-muted">SG highway, Ahemdabad, Gujarat.</p>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Apollo Hospitals-2</h5> <br>
+                            <h6 class="card-text">Address</h6>
+                            <p class="data_address text-muted">SG highway, Ahemdabad, Gujarat.</p>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Apollo Hospitals-2</h5> <br>
+                            <h6 class="card-text">Address</h6>
+                            <p class="data_address text-muted">SG highway, Ahemdabad, Gujarat.</p>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                 </div>
+                    <div class="card mx-auto" style="max-width: 68%;">
+                            <div class="card-body">
+                            <h5 class="card-title">Apollo Hospitals-2</h5> <br>
+                            <h6 class="card-text">Address</h6>
+                            <p class="data_address text-muted">SG highway, Ahemdabad, Gujarat.</p>
+                            <h6 class="card-text">Mobile No.</h6>
+                            <p class="data_number text-muted">8849338974</p>
+                        </div>
+                    </div>
+        </div>
+    <!----------------------JS-------------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!--Credits-->
+    <!--
+     This product includes GeoLite2 data created by MaxMind, available from
+<a href="https://www.maxmind.com">https://www.maxmind.com</a>.
+ -->
+        <script>
+            function removeall(){
+                document.getElementById("individuals").classList.remove("none");
+                document.getElementById("individuals").classList.remove("block");
+                document.getElementById("organization").classList.remove("none");
+                document.getElementById("organization").classList.remove("block");
+            }
+            function myFunction(){
+                removeall();
+                document.getElementById("individuals").classList.add("block");
+                document.getElementById("organization").classList.add("none"); 
+            }
+            function myFunction1(){
+                removeall();
+                document.getElementById("individuals").classList.add("none");
+                document.getElementById("organization").classList.add("block"); 
+            }
+
+    </script>
+</body>
+
+</html>
